@@ -17,7 +17,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: microservice-provider-dept
+    name: microservice-config-dept-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -41,7 +41,7 @@ eureka:
 info:
   app.name: yct-microservicecloud-dept
   company.name: 杨楚天
-  build.artifactId: microservice-provider-dept-8001
+  build.artifactId: microservice-config-dept-client-8001
   build.version: 1.0-SNAPSHOT
 
 ---
@@ -58,7 +58,7 @@ mybatis:
 spring:
   profiles: test
   application:
-    name: microservice-provider-dept
+    name: microservice-config-dept-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -82,5 +82,5 @@ eureka:
 info:
   app.name: yct-microservicecloud-dept
   company.name: 杨楚天
-  build.artifactId: microservice-provider-dept-8001
+  build.artifactId: microservice-config-dept-client-8001
   build.version: 1.0-SNAPSHOT
